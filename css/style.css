@@ -282,8 +282,8 @@ footer.row {
   color: #fffefd;
 }
 .outline.green {
-  border-color: #fddc21f1;
-  color: #f8f8e8fb;
+  border-color: white;
+  color: white;
 }
 .outline.green:focus,
 .outline.green:hover {
