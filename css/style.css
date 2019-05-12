@@ -176,8 +176,7 @@ hr {
   width: 100%;
 }
 .jumbotron .container {
-  position: relative;
-  top: 50%;
+ 
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -187,11 +186,11 @@ hr {
 }
 
 .jumbotron .title {
-  color: plum;
+  color: black;
 }
 .jumbotron p {
   margin: 0;
-  color: thistle;
+  color:black;
 }
 
 /* =====================
@@ -283,8 +282,8 @@ footer.row {
   color: #fffefd;
 }
 .outline.green {
-  border-color: #21a5fdf1;
-  color: #21a5fdf1;
+  border-color: #fddc21f1;
+  color: #fddc21f1;
 }
 .outline.green:focus,
 .outline.green:hover {
@@ -400,8 +399,8 @@ footer.row {
   overflow: inherit;
 }
 #projects .carousel-inner img {
-  width: 20rem;
-  height: 20rem;
+  width: 24rem;
+  height: 16rem;
   object-fit: contain;
 }
 #projects .carousel-caption {
@@ -463,9 +462,11 @@ footer.row {
   margin-bottom: 15px !important;
 }
 .mb-30 {
+  color: black;
   margin-bottom: 17px;
 }
 .mb-60 {
+  color: midnightblue;
   margin-bottom: 60px;
 }
 .mt-30 {
@@ -618,4 +619,31 @@ footer.row {
 }
 .glyphicon glyphicon-chevron-right {
   color: blue !important;
+}
+.color {
+color: black;
+}
+.color2 {
+  color:midnightblue;
+  }
+
+  .top_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .top_logo .logo{
+    width: 23%;
+  }
+  .text-center{
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .text-center-logo{
+    margin-top: 20%;
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
